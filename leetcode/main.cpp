@@ -10,7 +10,8 @@
 
 //#include "TwoSum.hpp"
 //#include "AddTwoNumbers.hpp"
-#include "LengthOfLongestSubString.hpp"
+//#include "LengthOfLongestSubString.hpp"
+#include "MedianofTwoSortedArrays.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -54,10 +55,20 @@ int main(int argc, const char * argv[]) {
 //    cout<<endl;
 //    delete atn;
     //Length Of Longest sub string:
-    string s = "a";
-    LengthOfLongestSubString* it = NULL;
-    it = new LengthOfLongestSubString();
-    int ans = it->lengthOfLongestSubstring(s);
-    cout << ans <<endl;
-    
+//    string s = "a";
+//    LengthOfLongestSubString* it = NULL;
+//    it = new LengthOfLongestSubString();
+//    int ans = it->lengthOfLongestSubstring(s);
+//    cout << ans <<endl;
+    //Median of Two sorted array:
+    MedianofTwoSortedArrays* ptr = NULL;
+    ptr = new MedianofTwoSortedArrays();
+    vector<int> n1;
+    vector<int> n2;
+    n1.push_back(1);
+    n1.push_back(3);
+    n2.push_back(2);
+    double ans = ptr->findMedianSortedArrays(n1, n2);
+    cout<<ans<<endl;
+    return 0;
 }

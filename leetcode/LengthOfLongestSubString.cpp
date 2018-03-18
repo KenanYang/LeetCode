@@ -12,7 +12,7 @@
 #include<iostream>
 using namespace std;
 int LengthOfLongestSubString::lengthOfLongestSubstring(string s){
-    int ans = 0, left = 0, len = s.length();
+    int ans = 0, left = 0, len = (int)s.length();
     int last[255];
     memset(last, -1, sizeof(last));
     
