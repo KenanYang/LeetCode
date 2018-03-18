@@ -10,6 +10,7 @@
 		303EADC9205CCC060071B1AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADC8205CCC060071B1AB /* main.cpp */; };
 		303EADD1205CD0290071B1AB /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADCF205CD0290071B1AB /* TwoSum.cpp */; };
 		303EADD4205CEC150071B1AB /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADD2205CEC150071B1AB /* AddTwoNumbers.cpp */; };
+		303EADD7205D0A120071B1AB /* LengthOfLongestSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADD5205D0A120071B1AB /* LengthOfLongestSubString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		303EADD0205CD0290071B1AB /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
 		303EADD2205CEC150071B1AB /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		303EADD3205CEC150071B1AB /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		303EADD5205D0A120071B1AB /* LengthOfLongestSubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubString.cpp; sourceTree = "<group>"; };
+		303EADD6205D0A120071B1AB /* LengthOfLongestSubString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLongestSubString.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				303EADD0205CD0290071B1AB /* TwoSum.hpp */,
 				303EADD2205CEC150071B1AB /* AddTwoNumbers.cpp */,
 				303EADD3205CEC150071B1AB /* AddTwoNumbers.hpp */,
+				303EADD5205D0A120071B1AB /* LengthOfLongestSubString.cpp */,
+				303EADD6205D0A120071B1AB /* LengthOfLongestSubString.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				303EADD4205CEC150071B1AB /* AddTwoNumbers.cpp in Sources */,
+				303EADD7205D0A120071B1AB /* LengthOfLongestSubString.cpp in Sources */,
 				303EADD1205CD0290071B1AB /* TwoSum.cpp in Sources */,
 				303EADC9205CCC060071B1AB /* main.cpp in Sources */,
 			);

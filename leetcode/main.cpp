@@ -9,7 +9,8 @@
 #include <iostream>
 
 //#include "TwoSum.hpp"
-#include "AddTwoNumbers.hpp"
+//#include "AddTwoNumbers.hpp"
+#include "LengthOfLongestSubString.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -27,30 +28,36 @@ int main(int argc, const char * argv[]) {
 //    cout << index[0]<<" "<<index[1]<<endl;
 //    delete ts;
     // Add Two Numbers:
-    ListNode* l1 = NULL;
-    ListNode* l2 = NULL;
-    ListNode* l1N = NULL;
-    ListNode* l2N = NULL;
-    l1 = new ListNode(2);
-    l2 = new ListNode(5);
-    l1N = l1;
-    l2N = l2;
-    l1N->next = new ListNode(4);
-    l2N->next = new ListNode(6);
-    l1N = l1N->next;
-    l2N = l2N->next;
-    l1N->next = new ListNode(3);
-    l2N->next = new ListNode(4);
+//    ListNode* l1 = NULL;
+//    ListNode* l2 = NULL;
+//    ListNode* l1N = NULL;
+//    ListNode* l2N = NULL;
+//    l1 = new ListNode(2);
+//    l2 = new ListNode(5);
+//    l1N = l1;
+//    l2N = l2;
+//    l1N->next = new ListNode(4);
+//    l2N->next = new ListNode(6);
+//    l1N = l1N->next;
+//    l2N = l2N->next;
+//    l1N->next = new ListNode(3);
+//    l2N->next = new ListNode(4);
+//
+//    AddTwoNumbers* atn = NULL;
+//    atn = new AddTwoNumbers;
+//    ListNode *ans = NULL;
+//    ans = atn->addTwoNumbers(l1, l2);
+//    while(ans != NULL){
+//        cout<<ans->val<<" ";
+//        ans = ans->next;
+//    }
+//    cout<<endl;
+//    delete atn;
+    //Length Of Longest sub string:
+    string s = "aaaaa";
+    LengthOfLongestSubString* it = NULL;
+    it = new LengthOfLongestSubString();
+    int ans = it->lengthOfLongestSubstring(s);
+    cout << ans <<endl;
     
-    AddTwoNumbers* atn = NULL;
-    atn = new AddTwoNumbers;
-    ListNode *ans = NULL;
-    ans = atn->addTwoNumbers(l1, l2);
-    while(ans != NULL){
-        cout<<ans->val<<" ";
-        ans = ans->next;
-    }
-    cout<<endl;
-    delete atn;
-    return 0;
 }
