@@ -54,7 +54,7 @@ int main(int argc, const char * argv[]) {
 //    cout<<endl;
 //    delete atn;
     //Length Of Longest sub string:
-    string s = "aaaaa";
+    string s = "a";
     LengthOfLongestSubString* it = NULL;
     it = new LengthOfLongestSubString();
     int ans = it->lengthOfLongestSubstring(s);
