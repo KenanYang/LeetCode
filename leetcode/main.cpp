@@ -12,6 +12,7 @@
 //#include "AddTwoNumbers.hpp"
 //#include "LengthOfLongestSubString.hpp"
 #include "MedianofTwoSortedArrays.hpp"
+#include "LongestPalindromicSub.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -61,14 +62,19 @@ int main(int argc, const char * argv[]) {
 //    int ans = it->lengthOfLongestSubstring(s);
 //    cout << ans <<endl;
     //Median of Two sorted array:
-    MedianofTwoSortedArrays* ptr = NULL;
-    ptr = new MedianofTwoSortedArrays();
-    vector<int> n1;
-    vector<int> n2;
-    n1.push_back(1);
-    n1.push_back(3);
-    n2.push_back(2);
-    double ans = ptr->findMedianSortedArrays(n1, n2);
-    cout<<ans<<endl;
+//    MedianofTwoSortedArrays* ptr = NULL;
+//    ptr = new MedianofTwoSortedArrays();
+//    vector<int> n1;
+//    vector<int> n2;
+//    n1.push_back(1);
+//    n1.push_back(3);
+//    n2.push_back(2);
+//    double ans = ptr->findMedianSortedArrays(n1, n2);
+//    cout<<ans<<endl;
+    //LongestPalindromic:
+    string s = "ccc";
+    LongestPalindromicSub* ptr = new LongestPalindromicSub();
+    cout<< ptr->longestPalindrome(s)<<endl;
+    
     return 0;
 }
