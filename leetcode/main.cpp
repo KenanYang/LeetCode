@@ -11,8 +11,16 @@
 //#include "TwoSum.hpp"
 //#include "AddTwoNumbers.hpp"
 //#include "LengthOfLongestSubString.hpp"
-#include "MedianofTwoSortedArrays.hpp"
-#include "LongestPalindromicSub.hpp"
+//#include "MedianofTwoSortedArrays.hpp"
+//#include "LongestPalindromicSub.hpp"
+//#include "reverseInteger.hpp"
+//#include "atoi.hpp"
+#include "valid_num.hpp"
+
+
+
+
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -29,6 +37,7 @@ int main(int argc, const char * argv[]) {
 //    index = ts -> twoSum(num, target);
 //    cout << index[0]<<" "<<index[1]<<endl;
 //    delete ts;
+    
     // Add Two Numbers:
 //    ListNode* l1 = NULL;
 //    ListNode* l2 = NULL;
@@ -55,12 +64,14 @@ int main(int argc, const char * argv[]) {
 //    }
 //    cout<<endl;
 //    delete atn;
+    
     //Length Of Longest sub string:
 //    string s = "a";
 //    LengthOfLongestSubString* it = NULL;
 //    it = new LengthOfLongestSubString();
 //    int ans = it->lengthOfLongestSubstring(s);
 //    cout << ans <<endl;
+    
     //Median of Two sorted array:
 //    MedianofTwoSortedArrays* ptr = NULL;
 //    ptr = new MedianofTwoSortedArrays();
@@ -71,10 +82,23 @@ int main(int argc, const char * argv[]) {
 //    n2.push_back(2);
 //    double ans = ptr->findMedianSortedArrays(n1, n2);
 //    cout<<ans<<endl;
+    
     //LongestPalindromic:
-    string s = "ccc";
-    LongestPalindromicSub* ptr = new LongestPalindromicSub();
-    cout<< ptr->longestPalindrome(s)<<endl;
+//    string s = "ccc";
+//    LongestPalindromicSub* ptr = new LongestPalindromicSub();
+//    cout<< ptr->longestPalindrome(s)<<endl;
+    
+    // reverse integer:
+//    Solution s;
+//    cout << s.reverse(1534236469) << endl;
+    
+    // array to integer:
+//    Solution s;
+//    cout << s.myAtoi("9223372036854775808")<<endl;
+    
+    // valid number:
+    Solution s;
+    cout << s.isNumber("4e+")<<endl;
     
     return 0;
 }

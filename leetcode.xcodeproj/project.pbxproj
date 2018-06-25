@@ -13,6 +13,9 @@
 		303EADD7205D0A120071B1AB /* LengthOfLongestSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADD5205D0A120071B1AB /* LengthOfLongestSubString.cpp */; };
 		303EADDA205E26410071B1AB /* MedianofTwoSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADD8205E26410071B1AB /* MedianofTwoSortedArrays.cpp */; };
 		303EADDE205E70570071B1AB /* LongestPalindromicSub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303EADDC205E70570071B1AB /* LongestPalindromicSub.cpp */; };
+		30E3AA8E20E1073500E3A368 /* reverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30E3AA8C20E1073500E3A368 /* reverseInteger.cpp */; };
+		30E3AA9120E11A3D00E3A368 /* atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30E3AA8F20E11A3D00E3A368 /* atoi.cpp */; };
+		30E3AA9720E12E9400E3A368 /* valid_num.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30E3AA9520E12E9400E3A368 /* valid_num.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +43,12 @@
 		303EADD9205E26410071B1AB /* MedianofTwoSortedArrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MedianofTwoSortedArrays.hpp; sourceTree = "<group>"; };
 		303EADDC205E70570071B1AB /* LongestPalindromicSub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSub.cpp; sourceTree = "<group>"; };
 		303EADDD205E70570071B1AB /* LongestPalindromicSub.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindromicSub.hpp; sourceTree = "<group>"; };
+		30E3AA8C20E1073500E3A368 /* reverseInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseInteger.cpp; sourceTree = "<group>"; };
+		30E3AA8D20E1073500E3A368 /* reverseInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = reverseInteger.hpp; sourceTree = "<group>"; };
+		30E3AA8F20E11A3D00E3A368 /* atoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atoi.cpp; sourceTree = "<group>"; };
+		30E3AA9020E11A3D00E3A368 /* atoi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = atoi.hpp; sourceTree = "<group>"; };
+		30E3AA9520E12E9400E3A368 /* valid_num.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = valid_num.cpp; sourceTree = "<group>"; };
+		30E3AA9620E12E9400E3A368 /* valid_num.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = valid_num.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 				303EADD9205E26410071B1AB /* MedianofTwoSortedArrays.hpp */,
 				303EADDC205E70570071B1AB /* LongestPalindromicSub.cpp */,
 				303EADDD205E70570071B1AB /* LongestPalindromicSub.hpp */,
+				30E3AA8C20E1073500E3A368 /* reverseInteger.cpp */,
+				30E3AA8D20E1073500E3A368 /* reverseInteger.hpp */,
+				30E3AA8F20E11A3D00E3A368 /* atoi.cpp */,
+				30E3AA9020E11A3D00E3A368 /* atoi.hpp */,
+				30E3AA9520E12E9400E3A368 /* valid_num.cpp */,
+				30E3AA9620E12E9400E3A368 /* valid_num.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -145,10 +160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				303EADD4205CEC150071B1AB /* AddTwoNumbers.cpp in Sources */,
+				30E3AA8E20E1073500E3A368 /* reverseInteger.cpp in Sources */,
 				303EADDA205E26410071B1AB /* MedianofTwoSortedArrays.cpp in Sources */,
+				30E3AA9720E12E9400E3A368 /* valid_num.cpp in Sources */,
 				303EADDE205E70570071B1AB /* LongestPalindromicSub.cpp in Sources */,
 				303EADD7205D0A120071B1AB /* LengthOfLongestSubString.cpp in Sources */,
 				303EADD1205CD0290071B1AB /* TwoSum.cpp in Sources */,
+				30E3AA9120E11A3D00E3A368 /* atoi.cpp in Sources */,
 				303EADC9205CCC060071B1AB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
