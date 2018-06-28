@@ -15,7 +15,9 @@
 //#include "LongestPalindromicSub.hpp"
 //#include "reverseInteger.hpp"
 //#include "atoi.hpp"
-#include "valid_num.hpp"
+//#include "valid_num.hpp"
+//#include "palindrome_num.hpp"
+#include "regular_expression_matching.hpp"
 
 
 
@@ -97,8 +99,14 @@ int main(int argc, const char * argv[]) {
 //    cout << s.myAtoi("9223372036854775808")<<endl;
     
     // valid number:
+//    Solution s;
+//    cout << s.isNumber("4e+")<<endl;
+    // palindrome number:
+//    Solution s;
+//    cout << s.isPalindrome(1234)<<endl;
+    
     Solution s;
-    cout << s.isNumber("4e+")<<endl;
+    cout << s.isMatch("abbbb", "c.*")<<endl;
     
     return 0;
 }
